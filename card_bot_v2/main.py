@@ -11,7 +11,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-TOKEN = "MTM3NDQwNTkxMzc1ODI2OTYzMg.GDJu7J._2yAn1pMsqyDJhSopqXY-QnmqKkrFoHzf48f7I"
+TOKEN = "your token"
 DB_PATH = "data/bot.db"
 
 def init_db():
